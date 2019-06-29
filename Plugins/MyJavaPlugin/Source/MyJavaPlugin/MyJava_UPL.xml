@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.yourproject.test">
+
+	<init>
+		<log text="UPL file is working"/>
+	</init>
+	 <androidManifestUpdates>
+		<addPermission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+		<addPermission android:name="android.permission.CAMERA" />
+  </androidManifestUpdates>
+  <buildGradleAdditions>
+    <insert>
+
+    </insert>
+  </buildGradleAdditions>
+   <gameActivityClassAdditions>
+		<insert>
+      private int TestInt = 1;
+
+      private String TestVariable;
+
+      public void TestFunction()
+      {
+      Log.debug("TestFunction: is called from java");
+      }
+    </insert>
+</gameActivityClassAdditions>
+
+<gameActivityOnActivityResultAdditions>
+    <insert>
+
+      Log.debug("Log called from OnActivityResult");
+
+    </insert>
+  </gameActivityOnActivityResultAdditions>
+
+  <gameActivityImportAdditions>
+	<insert>
+
+   </insert>
+</gameActivityImportAdditions>
+
+</root>

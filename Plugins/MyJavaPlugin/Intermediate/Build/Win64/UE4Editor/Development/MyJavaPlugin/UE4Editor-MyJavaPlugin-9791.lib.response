@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyJavaPlugin-9791.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\PZ_9\Intermediate\Build\Win64\PZ_9Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\PZ_9\Plugins\MyJavaPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyJavaPlugin\Module.MyJavaPlugin.cpp.obj"
+"F:\PZ_9\Plugins\MyJavaPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyJavaPlugin\Module.MyJavaPlugin.gen.cpp.obj"
+"F:\PZ_9\Plugins\MyJavaPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyJavaPlugin\PCLaunch.rc.res"
+/OUT:"F:\PZ_9\Plugins\MyJavaPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyJavaPlugin\UE4Editor-MyJavaPlugin-9791.lib"
